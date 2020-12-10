@@ -14,6 +14,12 @@
 		833F68902582A4AC00EC5B71 /* TableGames.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 833F688E2582A4AC00EC5B71 /* TableGames.xcdatamodeld */; };
 		833F68922582A4AC00EC5B71 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 833F68912582A4AC00EC5B71 /* Assets.xcassets */; };
 		833F68952582A4AC00EC5B71 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 833F68932582A4AC00EC5B71 /* LaunchScreen.storyboard */; };
+		833F689E2582A8AA00EC5B71 /* ThirdVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 833F689D2582A8AA00EC5B71 /* ThirdVC.swift */; };
+		833F68A12582A8B400EC5B71 /* StarTrekDice.gif in Resources */ = {isa = PBXBuildFile; fileRef = 833F68A02582A8B400EC5B71 /* StarTrekDice.gif */; };
+		833F68A42582A8BC00EC5B71 /* SecondVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 833F68A32582A8BC00EC5B71 /* SecondVC.swift */; };
+		833F68A72582A8C300EC5B71 /* Home1VC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 833F68A62582A8C300EC5B71 /* Home1VC.swift */; };
+		833F68AA2582A8C800EC5B71 /* File.swift in Sources */ = {isa = PBXBuildFile; fileRef = 833F68A92582A8C800EC5B71 /* File.swift */; };
+		833F68AD2582A8CD00EC5B71 /* cardFan1.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 833F68AC2582A8CD00EC5B71 /* cardFan1.mp3 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +32,12 @@
 		833F68912582A4AC00EC5B71 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		833F68942582A4AC00EC5B71 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		833F68962582A4AC00EC5B71 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		833F689D2582A8AA00EC5B71 /* ThirdVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ThirdVC.swift; sourceTree = "<group>"; };
+		833F68A02582A8B400EC5B71 /* StarTrekDice.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = StarTrekDice.gif; sourceTree = "<group>"; };
+		833F68A32582A8BC00EC5B71 /* SecondVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SecondVC.swift; sourceTree = "<group>"; };
+		833F68A62582A8C300EC5B71 /* Home1VC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Home1VC.swift; sourceTree = "<group>"; };
+		833F68A92582A8C800EC5B71 /* File.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = File.swift; sourceTree = "<group>"; };
+		833F68AC2582A8CD00EC5B71 /* cardFan1.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = cardFan1.mp3; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,7 +73,13 @@
 				833F68852582A4AC00EC5B71 /* AppDelegate.swift */,
 				833F68872582A4AC00EC5B71 /* SceneDelegate.swift */,
 				833F68892582A4AC00EC5B71 /* ViewController.swift */,
+				833F689D2582A8AA00EC5B71 /* ThirdVC.swift */,
 				833F688B2582A4AC00EC5B71 /* Main.storyboard */,
+				833F68A02582A8B400EC5B71 /* StarTrekDice.gif */,
+				833F68AC2582A8CD00EC5B71 /* cardFan1.mp3 */,
+				833F68A92582A8C800EC5B71 /* File.swift */,
+				833F68A62582A8C300EC5B71 /* Home1VC.swift */,
+				833F68A32582A8BC00EC5B71 /* SecondVC.swift */,
 				833F68912582A4AC00EC5B71 /* Assets.xcassets */,
 				833F68932582A4AC00EC5B71 /* LaunchScreen.storyboard */,
 				833F68962582A4AC00EC5B71 /* Info.plist */,
@@ -128,7 +146,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				833F68952582A4AC00EC5B71 /* LaunchScreen.storyboard in Resources */,
+				833F68A12582A8B400EC5B71 /* StarTrekDice.gif in Resources */,
 				833F68922582A4AC00EC5B71 /* Assets.xcassets in Resources */,
+				833F68AD2582A8CD00EC5B71 /* cardFan1.mp3 in Resources */,
 				833F688D2582A4AC00EC5B71 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -140,10 +160,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				833F68A72582A8C300EC5B71 /* Home1VC.swift in Sources */,
 				833F68902582A4AC00EC5B71 /* TableGames.xcdatamodeld in Sources */,
 				833F688A2582A4AC00EC5B71 /* ViewController.swift in Sources */,
 				833F68862582A4AC00EC5B71 /* AppDelegate.swift in Sources */,
 				833F68882582A4AC00EC5B71 /* SceneDelegate.swift in Sources */,
+				833F68AA2582A8C800EC5B71 /* File.swift in Sources */,
+				833F68A42582A8BC00EC5B71 /* SecondVC.swift in Sources */,
+				833F689E2582A8AA00EC5B71 /* ThirdVC.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -292,11 +316,12 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = TableGames/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.DocsApps.TableGames;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ColinsApps.TableGames;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -310,11 +335,12 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = TableGames/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.DocsApps.TableGames;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ColinsApps.TableGames;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
